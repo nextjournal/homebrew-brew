@@ -1,23 +1,23 @@
 class Garden < Formula
   desc "CLI for application.garden"
   homepage "application.garden"
-  version "0.1.1"
+  version "0.1.2"
 
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.1/garden-linux-aarch64-static.tar.gz"
-      sha256 "ed2035860498dd49f005b25ca4bad5a2f249d8f71e87777a0d2887c1f48639ba"
+      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.2/garden-linux-aarch64-static.tar.gz"
+      sha256 "4c83c80651059fc0c6b3e052e54f56d01bd042f99fdd389166a3638ad1c1e8bf"
     else
-      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.1/garden-linux-amd64-static.tar.gz"
-      sha256 "ed2035860498dd49f005b25ca4bad5a2f249d8f71e87777a0d2887c1f48639ba"
+      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.2/garden-linux-amd64-static.tar.gz"
+      sha256 "4c83c80651059fc0c6b3e052e54f56d01bd042f99fdd389166a3638ad1c1e8bf"
     end
   else
     if Hardware::CPU.arm?
-      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.1/garden-macos-aarch64.tar.gz"
-      sha256 "60f60360c37b211b5804e3ab2117bfa183240c97ee3dc2a57f9f16ffe4a90084"
+      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.2/garden-macos-aarch64.tar.gz"
+      sha256 "92b71e6cd486b7a82779387e2d119066180c38519f29fa92e68fb69ab26559e0"
     else
-      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.1/garden-macos-amd64.tar.gz"
-      sha256 "0fe44c0a8b477519655b5e8546407192c12b99b6e296a6e3d1bc37f9689ee821"
+      url "https://github.com/nextjournal/garden-cli/releases/download/v0.1.2/garden-macos-amd64.tar.gz"
+      sha256 "d090b90327f75a69e949b46333383c1a5b5090fc5b0741bd2f9e374ba91ef6fc"
     end
   end
 
